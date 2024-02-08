@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.11.*"
+flask = "^3.0.2"
+python-barcode = "^0.15.1"
+pillow = "^10.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
