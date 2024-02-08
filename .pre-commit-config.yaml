@@ -3,6 +3,6 @@ repos:
     hooks:
       - id: linter
         name: linter
-        entry: poetry run task lint
+        entry: poetry run ruff . && black --check . --diff && isort --check . -diff
         language: system
         types: [python]
