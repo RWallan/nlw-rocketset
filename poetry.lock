@@ -56,6 +56,17 @@ files = [
 ]
 
 [[package]]
+name = "cerberus"
+version = "1.3.5"
+description = "Lightweight, extensible schema and data validation tool for Pythondictionaries."
+optional = false
+python-versions = "*"
+files = [
+    {file = "Cerberus-1.3.5-py3-none-any.whl", hash = "sha256:7649a5815024d18eb7c6aa5e7a95355c649a53aacfc9b050e9d0bf6bfa2af372"},
+    {file = "Cerberus-1.3.5.tar.gz", hash = "sha256:81011e10266ef71b6ec6d50e60171258a5b134d69f8fb387d16e4936d0d47642"},
+]
+
+[[package]]
 name = "cfgv"
 version = "3.4.0"
 description = "Validate configuration and produce human readable error messages."
@@ -783,4 +794,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "3.11.*"
-content-hash = "8d903e4bfafa456b2d0dc97d42f1b0e3ed46c4c4595ff372cc7800b4b978cee6"
+content-hash = "f81b270655c297c0cd77a3bd1678ac56bcaa2403b37c965b98b40cee33a3d87e"
