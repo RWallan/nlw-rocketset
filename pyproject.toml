@@ -40,7 +40,7 @@ line-length = 70
 pythonpath = "."
 
 [tool.taskipy.tasks]
-lint = "ruff . && black --check . --diff && isort --check . -diff"
+lint = "ruff . && black --check . --diff && isort --check . --diff"
 format = "black . && isort ."
 run = ""
 pre_test = "task lint"
